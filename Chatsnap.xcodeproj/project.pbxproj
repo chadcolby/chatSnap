@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8B0FEB1876120200698528 /* FKACameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B0FEA1876120200698528 /* FKACameraViewController.m */; };
 		8DD72E811870D45500C722E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72E801870D45500C722E3 /* Foundation.framework */; };
 		8DD72E831870D45500C722E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72E821870D45500C722E3 /* CoreGraphics.framework */; };
 		8DD72E851870D45500C722E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72E841870D45500C722E3 /* UIKit.framework */; };
@@ -19,6 +20,28 @@
 		8DD72E9C1870D45500C722E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72E841870D45500C722E3 /* UIKit.framework */; };
 		8DD72EA41870D45500C722E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DD72EA21870D45500C722E3 /* InfoPlist.strings */; };
 		8DD72EA61870D45500C722E3 /* ChatsnapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD72EA51870D45500C722E3 /* ChatsnapTests.m */; };
+		8DD72EB01870D46D00C722E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD72EAF1870D46C00C722E3 /* Main.storyboard */; };
+		8DD72EB81870D68100C722E3 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD72EB21870D68100C722E3 /* camera.png */; };
+		8DD72EB91870D68100C722E3 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD72EB31870D68100C722E3 /* camera@2x.png */; };
+		8DD72EBA1870D68100C722E3 /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD72EB41870D68100C722E3 /* friends.png */; };
+		8DD72EBB1870D68100C722E3 /* friends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD72EB51870D68100C722E3 /* friends@2x.png */; };
+		8DD72EBC1870D68100C722E3 /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD72EB61870D68100C722E3 /* inbox.png */; };
+		8DD72EBD1870D68100C722E3 /* inbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD72EB71870D68100C722E3 /* inbox@2x.png */; };
+		8DD72EC01870E17C00C722E3 /* FKAInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD72EBF1870E17C00C722E3 /* FKAInboxViewController.m */; };
+		8DD72EC21871D3EF00C722E3 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72EC11871D3EF00C722E3 /* Parse.framework */; };
+		8DD72ECC1871D4EF00C722E3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72EC31871D4EF00C722E3 /* AudioToolbox.framework */; };
+		8DD72ECD1871D4EF00C722E3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72EC41871D4EF00C722E3 /* CFNetwork.framework */; };
+		8DD72ECE1871D4EF00C722E3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72EC51871D4EF00C722E3 /* CoreLocation.framework */; };
+		8DD72ECF1871D4EF00C722E3 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72EC61871D4EF00C722E3 /* libz.1.1.3.dylib */; };
+		8DD72ED01871D4EF00C722E3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72EC71871D4EF00C722E3 /* MobileCoreServices.framework */; };
+		8DD72ED11871D4EF00C722E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72EC81871D4EF00C722E3 /* QuartzCore.framework */; };
+		8DD72ED21871D4EF00C722E3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72EC91871D4EF00C722E3 /* Security.framework */; };
+		8DD72ED31871D4EF00C722E3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72ECA1871D4EF00C722E3 /* StoreKit.framework */; };
+		8DD72ED41871D4EF00C722E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD72ECB1871D4EF00C722E3 /* SystemConfiguration.framework */; };
+		8DD72ED71871D86800C722E3 /* FKALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD72ED61871D86800C722E3 /* FKALoginViewController.m */; };
+		8DD72EDA1871D87C00C722E3 /* FKASignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD72ED91871D87C00C722E3 /* FKASignUpViewController.m */; };
+		8DD72EDD187256AC00C722E3 /* FKAEditFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD72EDC187256AC00C722E3 /* FKAEditFriendsViewController.m */; };
+		8DD72EE01872618900C722E3 /* FKAFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD72EDF1872618900C722E3 /* FKAFriendsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D8B0FE91876120200698528 /* FKACameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKACameraViewController.h; path = ../FKACameraViewController.h; sourceTree = "<group>"; };
+		8D8B0FEA1876120200698528 /* FKACameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKACameraViewController.m; path = ../FKACameraViewController.m; sourceTree = "<group>"; };
 		8DD72E7D1870D45500C722E3 /* Chatsnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatsnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD72E801870D45500C722E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DD72E821870D45500C722E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +73,33 @@
 		8DD72EA11870D45500C722E3 /* ChatsnapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatsnapTests-Info.plist"; sourceTree = "<group>"; };
 		8DD72EA31870D45500C722E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DD72EA51870D45500C722E3 /* ChatsnapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatsnapTests.m; sourceTree = "<group>"; };
+		8DD72EAF1870D46C00C722E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8DD72EB21870D68100C722E3 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		8DD72EB31870D68100C722E3 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		8DD72EB41870D68100C722E3 /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		8DD72EB51870D68100C722E3 /* friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friends@2x.png"; sourceTree = "<group>"; };
+		8DD72EB61870D68100C722E3 /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
+		8DD72EB71870D68100C722E3 /* inbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inbox@2x.png"; sourceTree = "<group>"; };
+		8DD72EBE1870E17C00C722E3 /* FKAInboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKAInboxViewController.h; sourceTree = "<group>"; };
+		8DD72EBF1870E17C00C722E3 /* FKAInboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKAInboxViewController.m; sourceTree = "<group>"; };
+		8DD72EC11871D3EF00C722E3 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8DD72EC31871D4EF00C722E3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8DD72EC41871D4EF00C722E3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8DD72EC51871D4EF00C722E3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8DD72EC61871D4EF00C722E3 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		8DD72EC71871D4EF00C722E3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8DD72EC81871D4EF00C722E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8DD72EC91871D4EF00C722E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8DD72ECA1871D4EF00C722E3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8DD72ECB1871D4EF00C722E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8DD72ED51871D86800C722E3 /* FKALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKALoginViewController.h; sourceTree = "<group>"; };
+		8DD72ED61871D86800C722E3 /* FKALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKALoginViewController.m; sourceTree = "<group>"; };
+		8DD72ED81871D87C00C722E3 /* FKASignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKASignUpViewController.h; sourceTree = "<group>"; };
+		8DD72ED91871D87C00C722E3 /* FKASignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKASignUpViewController.m; sourceTree = "<group>"; };
+		8DD72EDB187256AC00C722E3 /* FKAEditFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKAEditFriendsViewController.h; path = ../FKAEditFriendsViewController.h; sourceTree = "<group>"; };
+		8DD72EDC187256AC00C722E3 /* FKAEditFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKAEditFriendsViewController.m; path = ../FKAEditFriendsViewController.m; sourceTree = "<group>"; };
+		8DD72EDE1872618900C722E3 /* FKAFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKAFriendsViewController.h; sourceTree = "<group>"; };
+		8DD72EDF1872618900C722E3 /* FKAFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKAFriendsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +107,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD72ECC1871D4EF00C722E3 /* AudioToolbox.framework in Frameworks */,
+				8DD72ECD1871D4EF00C722E3 /* CFNetwork.framework in Frameworks */,
+				8DD72ECE1871D4EF00C722E3 /* CoreLocation.framework in Frameworks */,
+				8DD72ECF1871D4EF00C722E3 /* libz.1.1.3.dylib in Frameworks */,
+				8DD72ED01871D4EF00C722E3 /* MobileCoreServices.framework in Frameworks */,
+				8DD72ED11871D4EF00C722E3 /* QuartzCore.framework in Frameworks */,
+				8DD72ED21871D4EF00C722E3 /* Security.framework in Frameworks */,
+				8DD72ED31871D4EF00C722E3 /* StoreKit.framework in Frameworks */,
+				8DD72ED41871D4EF00C722E3 /* SystemConfiguration.framework in Frameworks */,
 				8DD72E831870D45500C722E3 /* CoreGraphics.framework in Frameworks */,
 				8DD72E851870D45500C722E3 /* UIKit.framework in Frameworks */,
+				8DD72EC21871D3EF00C722E3 /* Parse.framework in Frameworks */,
 				8DD72E811870D45500C722E3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +139,8 @@
 		8DD72E741870D45500C722E3 = {
 			isa = PBXGroup;
 			children = (
+				8DD72EAF1870D46C00C722E3 /* Main.storyboard */,
+				8DD72EB11870D68100C722E3 /* tab_bar_icons */,
 				8DD72E861870D45500C722E3 /* Chatsnap */,
 				8DD72E9F1870D45500C722E3 /* ChatsnapTests */,
 				8DD72E7F1870D45500C722E3 /* Frameworks */,
@@ -96,6 +160,16 @@
 		8DD72E7F1870D45500C722E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8DD72EC31871D4EF00C722E3 /* AudioToolbox.framework */,
+				8DD72EC41871D4EF00C722E3 /* CFNetwork.framework */,
+				8DD72EC51871D4EF00C722E3 /* CoreLocation.framework */,
+				8DD72EC61871D4EF00C722E3 /* libz.1.1.3.dylib */,
+				8DD72EC71871D4EF00C722E3 /* MobileCoreServices.framework */,
+				8DD72EC81871D4EF00C722E3 /* QuartzCore.framework */,
+				8DD72EC91871D4EF00C722E3 /* Security.framework */,
+				8DD72ECA1871D4EF00C722E3 /* StoreKit.framework */,
+				8DD72ECB1871D4EF00C722E3 /* SystemConfiguration.framework */,
+				8DD72EC11871D3EF00C722E3 /* Parse.framework */,
 				8DD72E801870D45500C722E3 /* Foundation.framework */,
 				8DD72E821870D45500C722E3 /* CoreGraphics.framework */,
 				8DD72E841870D45500C722E3 /* UIKit.framework */,
@@ -109,6 +183,18 @@
 			children = (
 				8DD72E8F1870D45500C722E3 /* FKAAppDelegate.h */,
 				8DD72E901870D45500C722E3 /* FKAAppDelegate.m */,
+				8DD72ED81871D87C00C722E3 /* FKASignUpViewController.h */,
+				8DD72ED91871D87C00C722E3 /* FKASignUpViewController.m */,
+				8DD72ED51871D86800C722E3 /* FKALoginViewController.h */,
+				8DD72ED61871D86800C722E3 /* FKALoginViewController.m */,
+				8DD72EBE1870E17C00C722E3 /* FKAInboxViewController.h */,
+				8DD72EBF1870E17C00C722E3 /* FKAInboxViewController.m */,
+				8DD72EDB187256AC00C722E3 /* FKAEditFriendsViewController.h */,
+				8DD72EDC187256AC00C722E3 /* FKAEditFriendsViewController.m */,
+				8DD72EDE1872618900C722E3 /* FKAFriendsViewController.h */,
+				8DD72EDF1872618900C722E3 /* FKAFriendsViewController.m */,
+				8D8B0FE91876120200698528 /* FKACameraViewController.h */,
+				8D8B0FEA1876120200698528 /* FKACameraViewController.m */,
 				8DD72E921870D45500C722E3 /* Images.xcassets */,
 				8DD72E871870D45500C722E3 /* Supporting Files */,
 			);
@@ -142,6 +228,19 @@
 				8DD72EA21870D45500C722E3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DD72EB11870D68100C722E3 /* tab_bar_icons */ = {
+			isa = PBXGroup;
+			children = (
+				8DD72EB21870D68100C722E3 /* camera.png */,
+				8DD72EB31870D68100C722E3 /* camera@2x.png */,
+				8DD72EB41870D68100C722E3 /* friends.png */,
+				8DD72EB51870D68100C722E3 /* friends@2x.png */,
+				8DD72EB61870D68100C722E3 /* inbox.png */,
+				8DD72EB71870D68100C722E3 /* inbox@2x.png */,
+			);
+			path = tab_bar_icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +291,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = kramerica;
 				TargetAttributes = {
+					8DD72E7C1870D45500C722E3 = {
+						DevelopmentTeam = MSQVU8969Q;
+					};
 					8DD72E971870D45500C722E3 = {
 						TestTargetID = 8DD72E7C1870D45500C722E3;
 					};
@@ -220,8 +322,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD72EB01870D46D00C722E3 /* Main.storyboard in Resources */,
+				8DD72EBA1870D68100C722E3 /* friends.png in Resources */,
+				8DD72EBB1870D68100C722E3 /* friends@2x.png in Resources */,
+				8DD72EB91870D68100C722E3 /* camera@2x.png in Resources */,
+				8DD72EBC1870D68100C722E3 /* inbox.png in Resources */,
 				8DD72E8B1870D45500C722E3 /* InfoPlist.strings in Resources */,
+				8DD72EB81870D68100C722E3 /* camera.png in Resources */,
 				8DD72E931870D45500C722E3 /* Images.xcassets in Resources */,
+				8DD72EBD1870D68100C722E3 /* inbox@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +350,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD72E8D1870D45500C722E3 /* main.m in Sources */,
+				8DD72ED71871D86800C722E3 /* FKALoginViewController.m in Sources */,
+				8DD72EDA1871D87C00C722E3 /* FKASignUpViewController.m in Sources */,
 				8DD72E911870D45500C722E3 /* FKAAppDelegate.m in Sources */,
+				8DD72EE01872618900C722E3 /* FKAFriendsViewController.m in Sources */,
+				8DD72EC01870E17C00C722E3 /* FKAInboxViewController.m in Sources */,
+				8D8B0FEB1876120200698528 /* FKACameraViewController.m in Sources */,
+				8DD72EDD187256AC00C722E3 /* FKAEditFriendsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +475,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chadcolby/Documents/Developer/random\\ dev/Chatsnap",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Chatsnap/Chatsnap-Prefix.pch";
 				INFOPLIST_FILE = "Chatsnap/Chatsnap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,10 +495,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chadcolby/Documents/Developer/random\\ dev/Chatsnap",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Chatsnap/Chatsnap-Prefix.pch";
 				INFOPLIST_FILE = "Chatsnap/Chatsnap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -442,6 +571,7 @@
 				8DD72EAB1870D45500C722E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DD72EAC1870D45500C722E3 /* Build configuration list for PBXNativeTarget "ChatsnapTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +580,7 @@
 				8DD72EAE1870D45500C722E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

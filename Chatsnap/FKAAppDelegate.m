@@ -7,16 +7,18 @@
 //
 
 #import "FKAAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation FKAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    [Parse setApplicationId:@"JfZYL9VXdrnnszUTILYAxnsXWF5yJEE90nUykYZt" clientKey:@"UyPWlNOTy6Tqh6VIytGATH3xoU5dX1FskN9eu1yq"];
+    
+    //[PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
